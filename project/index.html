@@ -3,16 +3,19 @@
 <head>
    <meta charset="UTF-8">
    <title>eShop</title>
-
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header style="display: flex; justify-content: flex-end; border: 2px solid; height: 64px; padding: 10px">
-   <button class="cart-button" type="button">Корзина</button>
-</header>
-<main>
-   <div class="goods-list" style="padding-top: 32px; display: flex; justify-content: space-between;
-   padding-bottom: 32px"></div>
-</main>
-<script src="script.js"></script>
+   <header>
+      <h1 class="title">eShop</h1>
+      <div class="actions">
+         <button class="cart-button" type="button">Корзина</button>
+      </div>
+   </header>
+   <main>
+      <div class="goods-list"></div>
+      <div class="goods-sum"></div>
+   </main>
+   <script src="script.js"></script>
 </body>
 </html>
